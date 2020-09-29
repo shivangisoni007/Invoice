@@ -1,0 +1,131 @@
+body{
+    background: #f0f0f0;
+    text-align: center;
+    margin: auto;
+}
+.wrapper .row{
+    padding: 5px;
+}
+.wrapper .card{
+    font-family: 'Inconsolata', monospace;
+}
+.card-header, .card-footer{
+    text-align: center;
+    background-color: transparent;
+    background-color: #888888;
+    color: white;
+    font-family: 'Pacifico';
+}
+.card-footer a{
+    text-decoration: none;
+    color: orange;
+    padding: 5px;
+}
+.card-header small{
+    padding-left: 5px;
+    font-size: 15px;
+    color: orange;
+}
+.card-body{
+    padding: 15px;
+}
+.card-body i{
+    padding: 10px;
+    color: orange;
+    font-size: 55px;
+}
+.card-body strong{
+    font-size: 18px;
+    font-style: italic;
+    padding: 5px;
+    text-decoration: none;
+}
+.card-body p{
+    text-align: justify;
+    padding: 10px 5px 5px 5px;
+}
+@media only screen and(min-width: 900px) and (max-width: 2022px){
+    .wrapper .row{
+        padding: 5px;
+    }
+    .wrapper .card{
+        font-family: 'Inconsolata', monospace;
+    }
+    .card-header, .card-footer{
+        text-align: center;
+        background-color: transparent;
+        background-color: #888888;
+        color: white;
+        font-family: 'Pacifico';
+    }
+    .card-footer a{
+        text-decoration: none;
+        color: orange;
+        padding: 5px;
+    }
+    .card-header small{
+        padding-left: 5px;
+        font-size: 15px;
+        color: orange;
+    }
+    .card-body{
+        padding: 15px;
+    }
+    .card-body i{
+        padding: 10px;
+        color: orange;
+        font-size: 55px;
+    }
+    .card-body strong{
+        font-size: 18px;
+        font-style: italic;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .card-body p{
+        text-align: justify;
+        padding: 10px 5px 5px 5px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 900px){
+    .wrapper .row{
+        padding: 2px;
+    }
+    .wrapper .card{
+        font-family: 'Inconsolata', monospace;
+    }
+    .card-header, .card-footer{
+        text-align: center;
+        background-color: transparent;
+        background-color: #888888;
+        color: white;
+        font-family: 'Pacifico';
+    }
+    .card-header h3{
+        font-size: px;
+    }
+    .card-footer a{
+        text-decoration: none;
+        color: orange;
+        padding: 5px;
+    }
+    
+    .card-body{
+        padding: 10px;
+    }
+    .card-body i{
+        padding: 10px;
+        color: orange;
+        font-size: 35px;
+    }
+    .card-body strong{
+        font-size: 15px;
+        font-style: italic;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .card-body p{
+        text-align: justify;
+        padding: 10px 5px 5px 5px;
+    }
+}
